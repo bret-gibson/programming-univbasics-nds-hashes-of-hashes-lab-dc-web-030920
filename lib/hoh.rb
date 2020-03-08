@@ -56,7 +56,7 @@ def naming_system
     {
       :label => PORTION_1[:label],
       :sub_category => {
-        :PORTION_1[:sub_category] => "blah"
+        PORTION_1[:sub_category]: => "blah"
       }
     },
   }
