@@ -68,8 +68,7 @@ def naming_system
               label: "Genus",
               sub_category: {
                 label: "Species"}}}}}}}
-  hoh = PORTION_1[:sub_category][:label]
-
+  
 pp hoh
   puts hoh
   puts hoh[:sub_category][:sub_category]
