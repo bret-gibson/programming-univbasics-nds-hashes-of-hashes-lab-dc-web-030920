@@ -55,10 +55,7 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   hoh = {
-      {
-        :label => PORTION_1[:label],
-      :sub_category => PORTION_1[:sub_category]
-    }
+      {:label => PORTION_1[:label], :sub_category => PORTION_1[:sub_category]}
   }
 pp hoh
   puts hoh
