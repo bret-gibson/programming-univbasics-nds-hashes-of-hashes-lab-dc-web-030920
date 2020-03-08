@@ -55,7 +55,7 @@ def naming_system
   hoh = {
     {
       :label => PORTION_1[:label],
-      :sub_category => {PORTION_1[:sub_category]
+      :sub_category => PORTION_1[:sub_category] => "blah"
     },
   }
 
