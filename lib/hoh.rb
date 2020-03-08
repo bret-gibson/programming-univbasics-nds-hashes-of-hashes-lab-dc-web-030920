@@ -29,20 +29,6 @@ PORTION_2 = {
    label: "Species",
    sub_category: nil}
 
-=begin
-hoh = {
-{:label => "Kingdom", :sub_category => {:label => "Phylum", :sub_category => {:label => "Class"}}},
-{:label => "Order"},
-{:label => "Family", :sub_category => {:label => "Genus"}},
-{:label => "Species", :sub_category => nil}}
-=end
-
-=begin
-sub_category: {PORTION_2},
-sub_category: {PORTION_3},
-sub_category: {PORTION_4}}
-=end
-
 def naming_system
   # Remember:
   #  Kingdom
