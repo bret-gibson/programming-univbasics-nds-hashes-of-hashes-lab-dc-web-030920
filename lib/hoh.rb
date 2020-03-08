@@ -70,6 +70,3 @@ def naming_system
                 label: "Species"}}}}}}}
   return hoh
 end
-
-#:label => PORTION_1[:label],
-#:sub_category => PORTION_1[:sub_category]
