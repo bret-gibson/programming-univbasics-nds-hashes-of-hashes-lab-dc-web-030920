@@ -4,6 +4,8 @@
 #
 # The tests will guide your construction.
 #
+require 'pp'
+
 PORTION_1 = {
    label: "Kingdom",
    sub_category: {
