@@ -68,10 +68,6 @@ def naming_system
               label: "Genus",
               sub_category: {
                 label: "Species"}}}}}}}
-  
-pp hoh
-  puts hoh
-  puts hoh[:sub_category][:sub_category]
   return hoh
 end
 
