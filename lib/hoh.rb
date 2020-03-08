@@ -67,8 +67,7 @@ def naming_system
             sub_category: {
               label: "Genus",
               sub_category: {
-                label: "Species"}}}}}}
-  }
+                label: "Species"}}}}}}}
   hoh = PORTION_1[:sub_category][:label]
 
 pp hoh
